@@ -1,0 +1,19 @@
+{
+  "name": "eslint-config-evaneos",
+  "version": "1.0.0",
+  "description": "This package provides Evaneos's .eslintrc as an extensible shared config, based on Airbnb's rules",
+  "main": "base.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Evaneos <dev@evaneos.com>",
+  "license": "ISC",
+  "dependencies": {
+    "babel-eslint": "^5.0.0-beta8",
+    "eslint-config-airbnb": "^5.0.0",
+    "eslint-plugin-react": "^3.16.1"
+  },
+  "peerDependencies": {
+    "eslint": "^1.10.3"
+  }
+}
