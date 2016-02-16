@@ -2,7 +2,9 @@
 module.exports = {
   "extends": "airbnb",
   "rules": {
+    // 4 spaces indentation
     "indent": [2, 4, {"SwitchCase": 1}],
+    "react/jsx-indent-props": [2, 4],
 
     // Stricter rules
     "prefer-spread": 2,                         // http://eslint.org/docs/rules/prefer-spread
