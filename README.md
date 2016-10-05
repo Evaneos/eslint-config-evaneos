@@ -4,12 +4,23 @@ This package provides Evaneos's .eslintrc as an extensible shared config, based 
 
 ### base
 
-1. `npm install --save-dev eslint eslint-config-evaneos`
-2. add `"extends": "evaneos"` to your .eslintrc
+1. Install
+```
+(
+  export PKG=eslint-config-airbnb-base;
+  npm info "$PKG" peerDependencies --json | command sed 's/[\{\},]//g ; s/: /@/g' | xargs npm install --save-dev "$PKG" && npm install --save-dev eslint-config-evaneos
+)
+```
+2. add `"extends": "evaneos/base"` to your .eslintrc
 
-### babel
 
-Lint with babel parser
+### react
 
-1. `npm install --save-dev eslint babel-eslint eslint-config-evaneos`
-2. add `"extends": "evaneos/babel"` to your .eslintrc
+1. Install
+```
+(
+  export PKG=eslint-config-airbnb;
+  npm info "$PKG" peerDependencies --json | command sed 's/[\{\},]//g ; s/: /@/g' | xargs npm install --save-dev "$PKG" && npm install --save-dev eslint-config-evaneos
+)
+```
+2. add `"extends": "evaneos/react"` to your .eslintrc
