@@ -6,4 +6,5 @@ module.exports = {
     './rules/override',
     './rules/react',
   ].map(require.resolve),
+  parser: 'babel-eslint',
 };
