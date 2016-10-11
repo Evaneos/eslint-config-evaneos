@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-evaneos",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "description": "This package provides Evaneos's .eslintrc as an extensible shared config, based on Airbnb's rules",
   "main": "base.js",
   "scripts": {
