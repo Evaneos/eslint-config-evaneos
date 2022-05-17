@@ -1,3 +1,9 @@
+# ⚠️ **DEPRECATED** ⚠️
+
+This package is deprecated. Please use [@evaneos/eslint-config](https://github.com/Evaneos/eslint-config) or [@evaneos/eslint-config-base](https://github.com/Evaneos/eslint-config-base)
+
+
+
 # eslint-config-evaneos
 
 This package provides Evaneos's .eslintrc as an extensible shared config, based on [Airbnb's rules](https://github.com/airbnb/javascript/tree/master/packages/eslint-config-airbnb).
