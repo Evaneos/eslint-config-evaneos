@@ -1,8 +1,6 @@
 # ⚠️ **DEPRECATED** ⚠️
 
-This package is deprecated. Please use [@evaneos/eslint-config](https://github.com/Evaneos/eslint-config) or [@evaneos/eslint-config-base](https://github.com/Evaneos/eslint-config-base)
-
-
+This package is deprecated. Please refer to [front-config](https://github.com/Evaneos/eslint-config).
 
 # eslint-config-evaneos
 
